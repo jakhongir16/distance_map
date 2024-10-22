@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "268306991493",
+    "project_id": "map-distance-9dd9c",
+    "storage_bucket": "map-distance-9dd9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268306991493:android:0f2774d81f3fccb2275cec",
+        "android_client_info": {
+          "package_name": "com.example.map_distance"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyMdrXyHlcHbRuX60ESqUhjJww7KbXwTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
