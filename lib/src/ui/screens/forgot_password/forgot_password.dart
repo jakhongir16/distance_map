@@ -33,8 +33,14 @@ class ForgotPasswordPage extends StatelessWidget {
                 children: [
                   TextField(
                     controller: emailController,
-                    decoration: const InputDecoration(
-                        labelText: 'Enter your email'),
+                    decoration: InputDecoration(
+                      labelText: 'Email',
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(30.0), // Set the circular radius here
+                        borderSide: const BorderSide(), // You can customize the border side if needed
+                      ),
+                     contentPadding: const EdgeInsets.symmetric(vertical: 15.0, horizontal: 20.0), // Optional padding
+                    ),
                     keyboardType: TextInputType.emailAddress,
                   ),
                   const SizedBox(height: 20),
